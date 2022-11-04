@@ -1,11 +1,15 @@
 
-let inch=20;
-let cm
-cm=inch*2.54;
+let height =72; // inches
+let weight= 120; // in pound
 
-let kilo=20
-let pound
+height=height*2.54;  // height convert in cm
 
-pound=kilo*2.2046;
-console.log(`${inch} inch is equal to ${cm} cm`)
-console.log(`${kilo} kilo is equal to ${pound} pounds`)
+weight=weight/2.2046; // weight convert in kilo
+let BMI;
+
+//weight (kg) / [height (m)]2 BMI formula
+BMI=weight/height/height*10000;
+
+console.log(`Height: ${height} cm,`)
+console.log(`Weight: ${weight} kilo`)
+console.log(`Your BMI is: ${BMI}`)
