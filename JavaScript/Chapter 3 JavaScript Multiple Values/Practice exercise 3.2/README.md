@@ -10,6 +10,5 @@
 9. Combine both lists, adding the new list twice to the end of the first list.
 10. Get the last index value of Pop and output it to the console.
 11. Your final list should look like this
-
 ["Bananas", "Carrots", "Lettuce", "Eggs", "Milk", "Juice",
 "Pop", "Juice", "Pop"]
