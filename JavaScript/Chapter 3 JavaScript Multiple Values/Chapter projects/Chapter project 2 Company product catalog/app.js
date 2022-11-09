@@ -43,4 +43,3 @@ console.log(storeItems[2]);
 
 items3.color="Black"
 console.log(storeItems[2]);
-
