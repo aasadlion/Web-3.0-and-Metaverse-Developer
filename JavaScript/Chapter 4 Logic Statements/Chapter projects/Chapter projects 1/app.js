@@ -1,5 +1,7 @@
+console.log('Evaluating a number game')
+let userNmuber=prompt("Enter the number")
 let dynamicNumber=100;
-let userNmuber=101;
+
 let output;
 
 
