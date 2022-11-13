@@ -1,5 +1,5 @@
-let prize=1;
-// prize=Number(prize);
+let prize=prompt(' selecting a number between 1 and 10');
+prize=Number(prize);
 
 let output=("My Selection:")
 
