@@ -1,0 +1,14 @@
+{
+  "name": "chapter-projects-3",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors game\r This is a game between a player and the computer, where both will make a random \r selection of either Rock, Paper, or Scissors (alternatively, you could create a version \r using real player input!). Rock will beat out Scissors, Paper will beat out Rock, and \r Scissors will beat out Paper. You can use JavaScript to create your own version of \r this game, applying the logic with an if statement. Since this project is a little more \r difficult, here are some suggested steps:\r 1. Create an array that contains the variables Rock, Paper, and Scissors.\r 2. Set up a variable that generates a random number 0-2 for the player and then \r do the same for the computer's selection. The number represents the index \r values in the array of the 3 items.\r 3. Create a variable to hold a response message to the user. This can show the \r random results for the player and then also the result for the computer of the \r matching item from the array. \r 4. Create a condition to handle the player and computer selections. If both are \r the same, this results in a tie. \r 5. Use conditions to apply the game logic and return the correct results. \r There are several ways to do this with the condition statements, but you \r could check which player's index value is bigger and assign the victory \r accordingly, with the exception of Rock beating Scissors.\r 6. Add a new output message that shows the player selection versus the \r computer selection and the result of the game.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
