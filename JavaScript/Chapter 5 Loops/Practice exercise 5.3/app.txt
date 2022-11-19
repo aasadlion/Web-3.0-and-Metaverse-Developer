@@ -1,7 +1,4 @@
  Practice exercise 5.3
-
-
-
 // In this exercise we will use a for loop to create an array that holds objects. Starting 
 // with creating a blank array, the block of code within the loop will create an object 
 // that gets inserted into the array.
