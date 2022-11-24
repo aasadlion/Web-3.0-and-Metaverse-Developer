@@ -10,3 +10,13 @@ console.log(result);
     console.log('asad')
 
 })();
+
+//Recursive functions
+function Recursive(num) {
+    console.log(num)
+    if (num > 12) {
+        Recursive(++num)
+
+    }
+}
+Recursive(6);
